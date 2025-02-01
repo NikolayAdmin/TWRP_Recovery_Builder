@@ -23,23 +23,23 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/NikolayAdmin/android_device_itel-L6006'
+        default: 'https://github.com/NikolayAdmin/android_device_xiaomi_armani'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'android-10'
+        default: 'android-6.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/Itel/itel-L6006'
+        default: 'device/xiaomi/armani'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'L6006'
+        default: 'armani'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME (without including .mk, Example: omni_7304F)'
         required: true
-        default: 'omni_itel-L6006'
+        default: 'omni_armani'
       BUILD_TARGET:
         description: 'Specify your Build Target' # Pick among boot, recovery and vendor_boot
         required: true
